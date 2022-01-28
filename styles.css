@@ -1,0 +1,133 @@
+body{
+  background-color: hsl(217, 54%, 11%);
+text-align: center;
+}
+
+.main-container{
+  background-color: hsl(216, 50%, 16%);
+  margin: 0 auto;
+  width: 400px;
+  border-radius: 15px;
+  height: 85vh;
+  position: relative;
+  top: 50px;
+}
+
+.container1{
+  border-radius: 15px;
+  padding-top: 25px;
+}
+.equilibrium-img{
+  width: 85%;
+  border-radius: 15px;
+}
+
+.overlay{
+  position: absolute;
+  width: 340px;
+  height: 340px;
+  border-radius: 15px;
+  background-color: hsl(178, 100%, 50%);
+  top: 25px;
+  right: 30px;
+  opacity: 0;
+}
+
+.icon-view{
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
+
+.container1:hover .overlay{
+  opacity: 50%;
+}
+
+.container2{
+  text-align: left;
+  padding: 0 30px;
+  color: white;
+}
+
+h2{
+  font-weight: 600;
+  cursor: pointer;
+}
+h2:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+.container2 p{
+  opacity: 70%;
+  font-size: 18px;
+}
+
+.clock-days{
+  float: right;
+}
+
+.icons{
+  margin-bottom: 20px;
+}
+
+.ethereum-icon, .clock-icon{
+  position: relative;
+  top: 3px;
+}
+
+.ethereum-icon{
+  margin-right: 3px;
+}
+
+.eth{
+  color: hsl(178, 100%, 50%);
+}
+
+.days{
+  color: hsl(215, 51%, 70%);
+}
+
+hr{
+  border-top: 0.3px solid;
+  opacity: 50%;
+  margin-bottom: 30px;
+}
+
+.pic-box{
+  float: left;
+}
+
+.profile{
+  align-items: center;
+}
+
+.pic-box{
+display: flex;
+align-items: center;
+padding: 0 30px;
+}
+
+.profile-pic{
+  width: 10%;
+  border: 3px solid white;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+.creation-text{
+ color:  hsl(215, 51%, 70%);
+   cursor: none;
+}
+
+.attribution{
+  font-weight: 600;
+}
